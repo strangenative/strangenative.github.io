@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/jekyll/update/2023/04/01/welcome-to-jekyll.html</loc>
+<lastmod>2023-04-01T10:06:13-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2009_dfti.html</loc>
+<lastmod>2023-05-24T00:10:07-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2011_motiv.html</loc>
+<lastmod>2023-05-24T00:10:07-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2013_search.html</loc>
+<lastmod>2023-05-24T00:10:07-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2019_primer.html</loc>
+<lastmod>2023-05-24T00:10:07-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2023_magic.html</loc>
+<lastmod>2023-05-24T00:10:07-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>

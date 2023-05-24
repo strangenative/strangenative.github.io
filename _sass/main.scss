@@ -1,0 +1,507 @@
+$tiny-breakpoint: 320px;
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 800px;
+$desktop-breakpoint: 992px;
+$large-desktop-breakpoint: 1200px;
+$extra-large-desktop-breakpoint: 1440px;
+
+$base-font-size: 20px;
+$base-line-height: 1.3;
+$base-font-family: 'Labrada', serif;
+$base-font-color: mediumblue;
+
+$base-background-color: oldlace;
+
+// Define your media query mixins
+@mixin retina {
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) { /* media query for Retina displays */
+    @content;
+  }
+}
+
+@mixin tiny {
+  @media (max-width: $tiny-breakpoint) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $desktop-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-breakpoint) and (max-width: $large-desktop-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (min-width: $large-desktop-breakpoint) and (max-width: $extra-large-desktop-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin extra-large-desktop {
+  @media (min-width: $extra-large-desktop-breakpoint) {
+    @content;
+  }
+}
+
+// Define your base styles
+body {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  color: $base-font-color;
+  background-color: $base-background-color;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, p  {
+  font-weight: 400;
+  max-width: 50em;
+  margin-bottom: 1em;
+  
+  @include tablet {
+    margin-bottom: 1em;
+  }
+}
+
+p, ol, ul {
+  font-weight: 350;
+  margin-bottom: 2em;
+}
+
+ul, ol {
+  padding-left: 1.6em;
+}
+
+li {
+  margin-bottom: 0.3em;
+  
+}
+
+nav {
+  max-width: 28em;
+  margin: 0 auto;
+  padding: 4em 0 0;
+
+  @include mobile {
+    padding: 4em 0 0 5vw;
+  }
+}
+
+hr {
+  border: none; /* Removes the default border */
+  height: 1px; /* Sets the height of the hr, change to what suits you */
+  background-color: silver; /* Sets the color */
+  margin: 3em 0 2em;
+}
+
+ul li {
+  list-style-type: circle;
+  margin-left: 0;
+}
+
+#panel1, #panel2 {
+  padding: 5vh;
+  padding-top: 0;
+}
+
+#panel1 {
+  display: flex;
+  height: 95vh;
+  justify-content: flex-start;
+  background-image: url("/assets/images/rect/russ_maschmeyer_3.png");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  @include mobile {
+    background-size: 200%;
+  }
+}
+
+#panel2 {
+  padding: 10vh;
+  padding-top: 15vh;
+  column-count: 2;
+  column-gap: 3vw;
+  max-width: 45em;
+  
+  @include mobile {
+    column-count: 1;
+    padding: 5vh;
+  }
+}
+
+#panel3, #panel4, #panel5 {
+  padding: 10vh;
+  padding-top: 0;
+  max-width: 45em;
+  
+  @include mobile {
+    padding: 5vh;
+    padding-top: 0;
+  }
+}
+
+#panel4 ul, #panel5 ul {
+  padding-left: 0;
+}
+
+#panel4 ul li, #panel5 ul li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+#panel5 ul li {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 4em;
+  font-style: italic;
+  line-height: 1em;
+  font-weight: 300;
+  align-self: flex-end;
+  text-shadow: 1px 1px 0px white, 2px 2px 0px white;
+  
+  @include mobile {
+    width: 100%;
+    font-size: 11.5vw;
+    height: 48vw;
+    line-height: 1.25em;
+    margin-bottom: 7vh;
+  }
+}
+
+h2 {
+  font-size: 1.3em;
+  max-width: 21em;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  // padding-bottom: 5vh;
+  // border-bottom: 1px dotted mediumblue;
+  
+  
+}
+
+#home h1 {
+  font-size: 6vw;
+  width: 50%;
+
+  @include mobile {
+    font-size: 11.5vw;
+    width: auto;
+  }
+}
+
+#home h2 {
+  margin-top:0;
+  margin-bottom: 5vh;
+  font-size: 2.25em;
+  @include tablet {
+    font-size: 1.25em;
+  }
+  @include mobile {
+    font-size: 7vw;
+  }
+}
+
+h3 {
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+  @include tablet {
+    font-size: 4vw;
+  }
+  
+  @include mobile {
+    font-size: 6vw;
+  }
+}
+
+h4 {
+  margin: 0px;
+  max-width: 50em;
+  font-size: 2vw;
+  font-weight: 400;
+  margin: .25em 0;
+
+  @include mobile {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+  }
+}
+
+p {
+  @include tiny {
+    font-size: .75em;
+  }
+  margin-bottom: 2rem;
+}
+
+#biography {
+  display: block;
+  padding: 0.1px;
+  max-width: 52em;
+  flex: 100%;
+}
+
+#biography p {
+  margin-top: 0;
+}
+
+#project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+  align-items: center;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-bottom: 6vh;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,205,.25);
+  z-index: 0;
+  
+  @include mobile {
+    display: block;
+    padding: 5vw;
+    transform: scale(104%);
+    box-shadow: 10px 10px 20px 0px rgba(0,0,205,0.25);
+  }
+}
+
+#project:hover {
+  transform: scale(105%);
+  cursor: pointer;
+  box-shadow: 30px 30px 40px 0px rgba(0,0,205,0.25);
+}
+
+#project:hover a {
+  color: fuchsia;
+}
+
+.slide {
+  display:flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin: 3em 0;
+
+  @include mobile {
+    display: block;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.slide_medialeft {
+  border: 7px solid black; 
+  border-radius: 14px; 
+  float: right; 
+  width: 25%; 
+  margin-left: 4%; 
+  margin-right: 4%;
+
+  @include mobile {
+    float: none;
+    max-width: 90%;
+    width: auto;
+  }
+}
+
+.slide_mediaright {
+  float: left; 
+  width: 55%;
+
+  @include mobile {
+    float: none;
+    width: 90%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+#project:active {
+  transition: transform 0.0s ease-in-out, box-shadow 0.0s ease-in-out;
+  transform: scale(103%);
+  box-shadow: 20px 20px 26px 0px rgba(0,0,205,0.25);
+  
+  @include mobile {
+    transition: transform 0.0s ease-in-out, box-shadow 0.0s ease-in-out;
+    transform: scale(102%);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,205,0.25);
+  }
+}
+
+#preview {
+  flex: 1;
+  margin-right: 5vw;
+  display: flex;
+  position:static;
+  
+  @include mobile {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+#preview img {
+  width: 100%;
+}
+
+#description {
+  flex: 1;
+  align-items: center;
+  margin-bottom: 0;
+  padding-right: 2vw;
+  font-size: .875em;
+  color: mediumslateblue;
+}
+
+#project:hover #description {
+  color: mediumblue;
+}
+
+#description p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .875em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: mediumorchid;
+}
+
+a:hover {
+  color: fuchsia;
+}
+
+a.project-button {
+  display: block;
+  padding: 5px 14px 8px;
+  background-color: oldlace;
+  color: mediumorchid;
+  vertical-align: top;
+  border: 1px solid mediumorchid;
+}
+
+a.project-button:hover {
+  border-color: fuchsia;
+}
+
+#projects {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+#date {
+  font-feature-settings: "lnum";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: .85em;
+  margin: 0;
+  color: mediumslateblue;
+}
+
+
+#project-page {
+  max-width: 28em;
+  padding: 1em;
+  margin: auto;
+  position: static;
+}
+
+#project-page h1 {
+  margin-left: -.1em;
+  margin-top: 0;
+  height: auto;
+}
+
+#project-page h3 {
+  font-size: 1.25em;
+  margin: .75em 0 0;
+  text-transform: none;
+}
+
+#project-page p > img {
+  max-width: 100%;
+  padding-top: 1.5em;
+}
+
+#project-page video {
+  display: block;
+}
+
+#project-page p:first-of-type {
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid silver;
+}
+
+video {
+  max-width: 100%;
+}
+
+code {
+  display: block;
+  background: mediumblue;
+  color: white;
+  font-size: 0.8em;
+  padding: 20px;
+  border-top: 10px solid darkblue;
+  border-radius: 4px;
+}
+
+p:has(small.media_description) {
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+}
+
+.media_description {
+  color: mediumslateblue;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: 1em;
+  padding-left: .05em;
+}
+
+blockquote {
+  margin: 2.5em 0 2.5em 1.5em;
+  font-size: 1.3em;
+}
+
+em.quote {
+  color: mediumslateblue;
+  display: block;
+  font-size: smaller;
+  margin-top: 0.5em;
+}
+
+.authors_note {
+  font-size: .8em;
+  display: block;
+  font-weight: 400;
+}
+
+caption {
+  display: block;
+  margin: 2em 0;
+}

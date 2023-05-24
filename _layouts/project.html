@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    <div id="project-page">
+      <h1>{{ page.name }}</h1>
+      <h2>{{ page.role }} · {{ page.year }}</h2>
+      {{ content }}
+  </body>
+</html>

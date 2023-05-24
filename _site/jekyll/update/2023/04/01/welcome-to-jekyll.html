@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<title>Welcome to Jekyll!</title>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const text = "Russ Maschmeyer is a designer, founder, & innovation lead.";
+        const element = document.getElementById("animated-headline");
+        let currentIndex = 0;
+        
+        function typeText() {
+            if (currentIndex < text.length) {
+                element.innerHTML += text.charAt(currentIndex);
+                currentIndex++;
+                setTimeout(typeText, 80); // Adjust the typing speed here (milliseconds)
+            }
+        }
+        
+        typeText();
+    });
+</script>
+<!-- GIF playback controller -->
+<link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Russ Maschmeyer / Strangenative" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Welcome to Jekyll! | Russ Maschmeyer / Strangenative</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Welcome to Jekyll!" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
+<meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2023/04/01/welcome-to-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2023/04/01/welcome-to-jekyll.html" />
+<meta property="og:site_name" content="Russ Maschmeyer / Strangenative" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-01T10:06:13-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Welcome to Jekyll!" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-01T10:06:13-07:00","datePublished":"2023-04-01T10:06:13-07:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","headline":"Welcome to Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2023/04/01/welcome-to-jekyll.html"},"url":"http://localhost:4000/jekyll/update/2023/04/01/welcome-to-jekyll.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+  <body>
+    <nav>
+  <a href="http://localhost:4000">russmaschmeyer.com</a>
+
+</nav>
+    
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-04-01T10:06:13-07:00" itemprop="datePublished">Apr 1, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+  </div><a class="u-url" href="/jekyll/update/2023/04/01/welcome-to-jekyll.html" hidden></a>
+</article>
+
+  </body>
+</html>

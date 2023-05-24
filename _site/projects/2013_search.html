@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<title>2013_search</title>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const text = "Russ Maschmeyer is a designer, founder, & innovation lead.";
+        const element = document.getElementById("animated-headline");
+        let currentIndex = 0;
+        
+        function typeText() {
+            if (currentIndex < text.length) {
+                element.innerHTML += text.charAt(currentIndex);
+                currentIndex++;
+                setTimeout(typeText, 80); // Adjust the typing speed here (milliseconds)
+            }
+        }
+        
+        typeText();
+    });
+</script>
+<!-- GIF playback controller -->
+<link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Russ Maschmeyer / Strangenative" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>2013_search | Russ Maschmeyer / Strangenative</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="2013_search" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Worked directly with Mark on Facebook’s ground-breaking experiment, Graph Search, then led its evolution with a team I built from the ground up." />
+<meta property="og:description" content="Worked directly with Mark on Facebook’s ground-breaking experiment, Graph Search, then led its evolution with a team I built from the ground up." />
+<link rel="canonical" href="http://localhost:4000/projects/2013_search.html" />
+<meta property="og:url" content="http://localhost:4000/projects/2013_search.html" />
+<meta property="og:site_name" content="Russ Maschmeyer / Strangenative" />
+<meta property="og:image" content="http://localhost:4000/postsearch.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-24T00:10:07-07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/postsearch.png" />
+<meta property="twitter:title" content="2013_search" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-24T00:10:07-07:00","datePublished":"2023-05-24T00:10:07-07:00","description":"Worked directly with Mark on Facebook’s ground-breaking experiment, Graph Search, then led its evolution with a team I built from the ground up.","headline":"2013_search","image":"http://localhost:4000/postsearch.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2013_search.html"},"url":"http://localhost:4000/projects/2013_search.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+  <body>
+    <nav>
+  <a href="http://localhost:4000">russmaschmeyer.com</a>
+
+</nav>
+    <div id="project-page">
+      <h1>Facebook Search</h1>
+      <h2>Design Lead · 2012–2017</h2>
+      <p>Worked directly with Mark on Facebook’s ground-breaking experiment, Graph Search, then led its evolution with a team I built from the ground up.</p>
+
+<p>When I joined the design team at Facebook in 2011, users could only search for pages by name. It was the fastest way to navigate the massive platform, but Facebook wasn’t just a network of documents like the web. For its 1 billion daily active users, it had become a rich graph of connections reflecting their world.</p>
+
+<p><code>
+Example Graph Connections…<br /><br />
+[User] ——— friendsWith ——▶︎ [User]<br />
+[User] ——— likes ————————▶︎ [Page]<br />
+[User] ——— taggedIn —————▶︎ [Photo]
+</code></p>
+
+<p>On January 15th, 2013 Facebook invited the press to an event at their new headquarters in Menlo Park. The presentation hall was packed with reporters snapping photos and live-blogging the opening moments.</p>
+
+<p>The lights dimmed and a video played…</p>
+
+<video controls="">
+    <source src="../assets/videos/graphsearch_teaser.mp4" type="video/mp4" />
+</video>
+<p><small class="media_description">Teaser video, 2013</small></p>
+
+<p>When the lights came back on, Mark stood at the podium and announced Graph Search. A new type of search engine that used structured queries and natural language processing <small>(NLP)</small> to help users traverse their graph connections to discover new music, a fellow adventurer, or just all the photos they’ve liked.</p>
+
+<h3>Key Features</h3>
+<ol>
+  <li>Search your social connections with structured queries.</li>
+  <li>Result snippets explain each result’s relevance to you.</li>
+  <li>Smart suggestions help you disambiguate your search query.</li>
+  <li>Tailored page layouts for each result type.</li>
+</ol>
+
+<p>With firsts like a privacy-aware index, <small>NLP</small> parsing engine, as well as personalized autocompletions and search snippets, it was one of the most technically ambitious projects the young company had yet undertaken.</p>
+
+<p>As Product Designer, I began working directly with Mark and other key executives in March of 2012. Mark called Search Facebook’s <em>Third Pillar</em>—as important to the company’s future as News Feed and Timeline. I took it from concept to launch in nine months, generating seven patents along the way.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<video controls="">
+    <source src="../assets/videos/graphsearch_explainer.mp4" type="video/mp4" />
+</video>
+<p><small class="media_description">Press video, 2013</small></p>
+
+<blockquote>
+    “&hairsp;There are a few pillars of the Facebook ecosystem… Graph Search is going to be another…”<br />
+    <em class="quote">Mark Zuckerberg</em>
+</blockquote>
+
+<p>Despite its innovative approach, adoption was low. Even the most advanced <small>NLP</small> of the day couldn’t handle user input outside of a recognized set. This put the burden on users to remember specific phrasings or else face frustration. In practice, users clearly preferred the simplicity of keywords to structured queries.</p>
+
+<p>As we learned these hard lessons, we were simultaneously working to massively expand search’s capabilities. Every day in News Feed, billions of important posts would disappear beneath a continual stream of fresh content. Facebook offered no way for users to search for the most important posts they remembered seeing.</p>
+
+<p><img src="../assets/images/postsearch_product.png" alt="Left: Facebook search typeahead suggesting keyword completions, Right: Post results with highlighted text matching the search term" />
+<small class="media_description">Generate Product Descriptions with Shopify Magic</small></p>
+
+<p>Indexing trillions of posts in a privacy aware index was an incredible infra challenge, but the functionality provided the perfect opportunity to transition Facebook search away from structured grammar to a simpler keyword model.</p>
+
+<p>As Design Lead, I grew the team to 11 exceptional product designers and built strong partnerships with <small>UX</small> research to drive the design philosophy and align on a new direction for Facebook search.</p>
+
+<p>Through exhaustive testing and iteration, the team balanced navigational and keyword intent in a simple typeahead experience that helped searchers get what they wanted fast without having to think about it.</p>
+
+<p>The new result design system made it possible to flexibly rank top results for each type in a single view. For more challenging searches, tabs across the top filter results to a particular type.</p>
+
+<p>The result of these efforts was a remarkably simplified and predictable search experience that still performs well years on. I’m proud of where we landed, but I do enjoy coming back from time to time to see if Graph Search support is still there, silently running beneath the hood. Last I checked, “My friends who live in [city]” still worked.</p>
+
+<hr />
+
+<h3>Press</h3>
+<ul>
+  <li>Fast Company: <a href="https://www.fastcompany.com/90186061/the-design-process-behind-facebook-graph-search">The Design Process Behind Facebook Graph Search</a></li>
+  <li>Fast Company: <a href="https://www.fastcompany.com/1673209/how-facebook-fixed-the-biggest-design-flaw-in-graph-search">How Facebook Fixed The Biggest Design Flaw In Graph Search</a></li>
+  <li>The Atlantic: <a href="https://www.theatlantic.com/technology/archive/2013/05/how-facebook-designs-the-perfect-empty-vessel-for-your-mind/275426/">How Facebook Designs the ‘Perfect Empty Vessel’ for Your Mind</a></li>
+  <li>The New York Times: <a href="https://archive.nytimes.com/bits.blogs.nytimes.com/2013/01/15/facebook-unveils-a-new-search-tool/">Facebook Unveils a New Search Tool</a></li>
+  <li>Techcrunch: <a href="https://techcrunch.com/2013/01/15/facebook-announces-its-third-pillar-graph-search/">Facebook Announces Its Third Pillar “Graph Search” That Gives You Answers, Not Links Like Google</a></li>
+  <li>The Verge: <a href="https://www.theverge.com/2013/1/15/3878950/facebook-announces-graph-search">Facebook ‘Graph Search’ mines a billion people with a trillion connections, launching today in beta</a></li>
+  <li>USA Today: <a href="https://www.usatoday.com/story/technologylive/2013/01/15/facebook-google/1835143/">Facebook announces Graph Search feature</a></li>
+  <li>Forbes: <a href="https://www.forbes.com/sites/kashmirhill/2013/01/15/facebooks-big-announcement-graph-search/?sh=fea2a585cc03">Facebook’s Big Announcement: ‘Graph Search’</a></li>
+  <li>CBS News: <a href="https://www.cbsnews.com/pictures/facebook-announces-graph-search-feature/">Facebook announces “graph search” feature</a></li>
+  <li>The Guardian: Facebook’s Graph Search to take on Google and help users](https://www.theguardian.com/technology/2013/jan/15/facebook-announcement-graph-search-mark-zuckerberg)</li>
+  <li>The New Yorker: <a href="https://www.newyorker.com/tech/annals-of-technology/a-radical-new-way-to-look-at-facebook">A Radical New Way to Look at Facebook</a></li>
+  <li>Fast Company: <a href="https://www.fastcompany.com/3004815/facebook-announcement-social-giant-launches-graph-search">Facebook Announcement: Social Giant Launches Graph Search</a></li>
+  <li>IEEE Spectrum: <a href="https://spectrum.ieee.org/the-making-of-facebooks-graph-search">The Making of Facebook’s Graph Search</a></li>
+  <li>Wired: <a href="https://www.wired.com/2013/01/the-inside-story-of-graph-search-facebooks-weapon-to-challenge-google/">Facebook’s Bold, Compelling and Scary Engine of Discovery: The Inside Story of Graph Search</a></li>
+</ul>
+
+<hr />
+
+<p>Brett Westervelt
+Ben Ashman
+Adam Bussing
+Maykel Loomans
+Emilia Dallman
+Justin Stahl
+Scott Horsfall
+Jason Jones
+Emilee Serafine
+Jay Stakelon</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the first footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </body>
+</html>

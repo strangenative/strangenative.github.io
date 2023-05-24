@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+<!--    {% include navigation.html %}-->
+    <div id="{{ page.layout }}">
+    {{ content }}
+    
+    
+    <div id="panel3">
+        <ul id="projects">
+          <script>
+            function myFunc(url) {
+              window.open(url, '_self');
+            }
+          </script>
+        {% for project in site.projects reversed %}
+        
+                <li href="#" onclick="myFunc('{{ project.url }}')" id="project">
+                  <div id="preview">
+                    <img id="poster" src="../assets/images/{{ project.image }}">
+                  </div>
+                  <div id="description">
+                    <h4 id="name" ><a href="{{ project.url }}">{{ project.name }}</a></h4>
+                    <p id="date">{{ project.role }} · {{ project.year }}</p>
+                    
+                    {{ project.excerpt | markdownify }}
+                    
+                   <!-- <a href="{{ project.url }}" class="project-button">Learn more</a> -->
+                  </div>
+                </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="panel4">
+      <h4>Recent Public Speaking</h4>
+      <ul>
+        <li>Kinference, Brooklyn 2023<br>
+          <a href="https://kinference.com">Website</a>
+        </li>
+        <li><small>AWE XR</small>, Lisbon 2022<br>
+          <a href="https://www.awexr.com/eu-2022/">Website</a>, <a href="https://www.youtube.com/watch?v=HFDZD2WjGr4">Video</a>
+        </li>
+        <li>RealTime Conf, Online 2022<br>
+          <a href="http://ec2-18-196-200-60.eu-central-1.compute.amazonaws.com/realtime-conference-2022/">Website</a>
+        </li>
+      </ul>
+    </div>
+    <div id="panel5">
+      <h4>Contact</h4>
+      <ul>
+        <li>email: <a href="mailto:russ.maschmeyer@gmail.com">russ.maschmeyer@gmail.com</a></li>
+        <li>twitter: <a href="https://www.twitter.com/strangenative">@strangenative</a></li>
+      </ul>
+    </div>
+    
+  </body>
+</html>
