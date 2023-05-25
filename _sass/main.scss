@@ -1,6 +1,6 @@
 $tiny-breakpoint: 320px;
 $mobile-breakpoint: 800px;
-$tablet-breakpoint: 768px;
+$tablet-breakpoint: 800px;
 $desktop-breakpoint: 960px;
 $large-desktop-breakpoint: 1200px;
 $extra-large-desktop-breakpoint: 1440px;
@@ -27,13 +27,19 @@ $base-background-color: oldlace;
 }
 
 @mixin mobile {
-  @media (max-width: $mobile-breakpoint) {
+  @media only screen 
+	and (min-device-width: 750px) 
+	and (max-device-width: 1334px) 
+	and (orientation : portrait) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (max-width: $tablet-breakpoint) {
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
     @content;
   }
 }
