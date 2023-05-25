@@ -35,7 +35,7 @@ When the lights came back on, Mark stood at the podium and announced Graph Searc
 
 With firsts like a privacy-aware index, <small>NLP</small> parsing engine, as well as personalized autocompletions and search snippets, it was one of the most technically ambitious projects the young company had yet undertaken. 
 
-As Product Designer, I began working directly with Mark and other key executives in March of 2012. Mark called Search Facebook's _Third Pillar_—as important to the company's future as News Feed and Timeline. I took it from concept to launch in nine months, generating seven patents along the way.[^1]
+As Product Designer, I began working directly with Mark and other key executives in March of 2012. Mark called Search Facebook's _Third Pillar_—as important to the company's future as News Feed and Timeline. I took it from concept to launch in nine months, generating seven patents along the way.
 
 <video controls>
     <source src="../assets/videos/graphsearch_explainer.mp4" type="video/mp4">
@@ -76,23 +76,8 @@ The result of these efforts was a remarkably simplified and predictable search e
 - USA Today: [Facebook announces Graph Search feature](https://www.usatoday.com/story/technologylive/2013/01/15/facebook-google/1835143/)
 - Forbes: [Facebook's Big Announcement: 'Graph Search'](https://www.forbes.com/sites/kashmirhill/2013/01/15/facebooks-big-announcement-graph-search/?sh=fea2a585cc03)
 - CBS News: [Facebook announces "graph search" feature](https://www.cbsnews.com/pictures/facebook-announces-graph-search-feature/)
-- The Guardian: Facebook's Graph Search to take on Google and help users](https://www.theguardian.com/technology/2013/jan/15/facebook-announcement-graph-search-mark-zuckerberg)
+- The Guardian: [Facebook's Graph Search to take on Google and help users](https://www.theguardian.com/technology/2013/jan/15/facebook-announcement-graph-search-mark-zuckerberg)
 - The New Yorker: [A Radical New Way to Look at Facebook](https://www.newyorker.com/tech/annals-of-technology/a-radical-new-way-to-look-at-facebook)
 - Fast Company: [Facebook Announcement: Social Giant Launches Graph Search](https://www.fastcompany.com/3004815/facebook-announcement-social-giant-launches-graph-search)
 - IEEE Spectrum: [The Making of Facebook's Graph Search](https://spectrum.ieee.org/the-making-of-facebooks-graph-search)
 - Wired: [Facebook’s Bold, Compelling and Scary Engine of Discovery: The Inside Story of Graph Search](https://www.wired.com/2013/01/the-inside-story-of-graph-search-facebooks-weapon-to-challenge-google/)
-
-***
-
-[^1]: This is the first footnote.
-
-Brett Westervelt
-Ben Ashman
-Adam Bussing
-Maykel Loomans
-Emilia Dallman
-Justin Stahl
-Scott Horsfall
-Jason Jones
-Emilee Serafine
-Jay Stakelon

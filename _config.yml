@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   runs the Spacial Commerce labs at Shopify, exploring the intersection
   of XR and AI and the future of commerce.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.strangenative.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://strangenative.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: strangenative
 github_username:  strangenative
 

@@ -34,7 +34,7 @@ $base-background-color: oldlace;
 
 @mixin tablet {
   @media only screen 
-  and (max-width : 500px) {
+  and (max-width : 750px) {
     @content;
   }
 }
