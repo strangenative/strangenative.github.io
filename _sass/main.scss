@@ -25,9 +25,9 @@ $base-background-color: oldlace;
     @content;
   }
 }
-
+// and (-webkit-min-device-pixel-ratio:2) 
 @mixin mobile {
-  @media (max-width: $mobile-breakpoint) {
+  @media (max-width: $mobile-breakpoint) and (-webkit-device-pixel-ratio: 3) {
     @content;
   }
 }
