@@ -142,6 +142,7 @@ ul li {
   @include tablet {
     column-count: 1;
     padding: 5vh;
+    padding-top: 0;
   }
 }
 
