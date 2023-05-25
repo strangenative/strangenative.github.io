@@ -33,7 +33,7 @@ $base-background-color: oldlace;
 }
 
 @mixin tablet {
-  @media (max-width: $desktop-breakpoint - 1px) {
+  @media (max-width: $tablet-breakpoint) {
     @content;
   }
 }
