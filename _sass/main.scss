@@ -27,7 +27,7 @@ $base-background-color: oldlace;
 }
 
 @mixin mobile {
-  @media (max-width: $mobile-breakpoint) and (-webkit-min-device-pixel-ratio: 2) {
+  @media (max-width: $mobile-breakpoint) {
     @content;
   }
 }
