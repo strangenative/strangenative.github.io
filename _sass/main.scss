@@ -466,6 +466,34 @@ video {
   max-width: 100%;
 }
 
+.video_wrap_16-9 {
+  margin-top: 3em;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video_wrap_3-2 {
+  margin-top: 3em;
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.66%;
+}
+
+.video_wrap_mobile {
+  position: relative;
+  width: 100%;
+  padding-bottom: 216.22%;
+}
+
+.video_wrap_16-9 iframe, .video_wrap_mobile iframe, .video_wrap_3-2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 code {
   display: block;
   background: mediumblue;

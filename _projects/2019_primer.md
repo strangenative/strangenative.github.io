@@ -7,9 +7,9 @@ image: primer_illo.png
 ---
 Acquired by Shopify in 2021, Primer's app let you to try and buy paint, tile, and wallpaper from curated brands in your space with augmented reality.
 
-<video controls>
-    <source src="../assets/videos/primer_launch.mp4" type="video/mp4">
-</video>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830221079?h=93236727b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 <small class="media_description">Primer launch video, 2019</small>
 
 Every renovator has wished for something like Primer: a magic tool that lets you preview changes to your space instantly with real products you can buy. 
@@ -19,9 +19,9 @@ When <small>COVID</small>-19 shuttered interior design showrooms and transformed
 <div class="slide">
 
     <div class="slide_medialeft">
-        <video muted autoplay loop>
-            <source src="../assets/videos/primer_blending.mp4" type="video/mp4">
-        </video>
+        <div class="video_wrap_mobile">
+            <iframe src="https://player.vimeo.com/video/830221013?h=862411eea0?autoplay=1&loop=1&autopause=0&background=1&color=ffffff&controls=0&portrait=0" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 
     <div class="slide_mediaright">
@@ -40,9 +40,10 @@ When <small>COVID</small>-19 shuttered interior design showrooms and transformed
 
 We built a product virtualization pipeline that turned 2D image assets into 3D textures at a low cost, with incredible fidelity and speed. Our rendering engine beautifully simulated previously challenging material features like metallic foil, high-gloss, and detailed surface textures by modeling the light in your space to simulate reflections in real time.
 
-<video muted controls style="margin-bottom: 1em;">
-    <source src="../assets/videos/primer_product.m4v" type="video/mp4">
-</video>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830221219?h=7d439a9773?autoplay=1&loop=1&autopause=0&background=1&color=ffffff&controls=0&portrait=0" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allowfullscreen></iframe>
+</div>
+<small class="media_description"></small>
 
 Primer was lucky to be backed by exceptional folks at Designer Fund, Expa, Foundation Capital, and Slow Ventures and to have been heavily evangelized by Apple with repeated features in the App Store and a "Developer Spotlight" editorial. 
 
@@ -50,9 +51,9 @@ Apple also highlighted Primer in the <small>WWDC</small> 2021 video: [Explore AR
 
 As co-founder and CEO, I built the vision and team for Primer from the ground up, gradually recruiting an exceptional roster of talent, including my co-founder, Adam Debreczeni. We built a powerhouse roster of brands and one of the best AR app experiences on the market.
 
-<video muted controls>
-    <source src="../assets/videos/primer_materialGen.mp4" type="video/mp4">
-</video>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830221128?h=1fa7faad98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 <small class="media_description">Our virtualization pipeline rapidly modeled merchant SKUs.</small>
 
 I'm so proud of the technology and partnerships we built together, but I'm most proud of the exceptional team and culture we built together. It was our fast, innovative culture and a shared vision for bringing together spacial computing and commerce that first caught the attention of our friends at Shopify.

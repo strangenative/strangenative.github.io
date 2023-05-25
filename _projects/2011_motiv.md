@@ -19,9 +19,9 @@ On July 21st, 2011 my graduate thesis project, <small>MOTIV</small>, appeared in
 3. Plug in your Kinect to track your movement in real time.
 4. On-screen graphics reflect and guide your movements.
 
-<video controls>
-    <source src="../assets/videos/motiv_jessica.mov" type="video/mp4">
-</video>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830220518?h=e8a07f42d7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 <small class="media_description"><small>MOTIV</small> expression test, 2013</small>
 
 As I entered my second year in grad school I was studying the neurological connections between music and emotion. Why does music make us feel anything at all? Turns out, our emotions are hard-wired to our body. Expression in music is directly connected to our intuitive understanding of the human body behind the sound.

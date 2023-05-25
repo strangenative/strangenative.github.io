@@ -20,9 +20,9 @@ On January 15th, 2013 Facebook invited the press to an event at their new headqu
 
 The lights dimmed and a video played…
 
-<video controls>
-    <source src="../assets/videos/graphsearch_teaser.mp4" type="video/mp4">
-</video>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830219879?h=b0df3dd78a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 <small class="media_description">Teaser video, 2013</small>
 
 When the lights came back on, Mark stood at the podium and announced Graph Search. A new type of search engine that used structured queries and natural language processing <small>(NLP)</small> to help users traverse their graph connections to discover new music, a fellow adventurer, or just all the photos they've liked.
@@ -37,10 +37,10 @@ With firsts like a privacy-aware index, <small>NLP</small> parsing engine, as we
 
 As Product Designer, I began working directly with Mark and other key executives in March of 2012. Mark called Search Facebook's _Third Pillar_—as important to the company's future as News Feed and Timeline. I took it from concept to launch in nine months, generating seven patents along the way.
 
-<video controls>
-    <source src="../assets/videos/graphsearch_explainer.mp4" type="video/mp4">
-</video>
-<small class="media_description">Press video, 2013</small>
+<div class="video_wrap_16-9">
+    <iframe src="https://player.vimeo.com/video/830219514?h=12727dbde7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+<small class="media_description">Team Interviews, 2013</small>
 
 <blockquote>
     “&hairsp;There are a few pillars of the Facebook ecosystem… Graph Search is going to be another…”<br>
@@ -52,7 +52,7 @@ Despite its innovative approach, adoption was low. Even the most advanced <small
 As we learned these hard lessons, we were simultaneously working to massively expand search's capabilities. Every day in News Feed, billions of important posts would disappear beneath a continual stream of fresh content. Facebook offered no way for users to search for the most important posts they remembered seeing.
 
 ![Left: Facebook search typeahead suggesting keyword completions, Right: Post results with highlighted text matching the search term](../assets/images/postsearch_product.png)
-<small class="media_description">Generate Product Descriptions with Shopify Magic</small>
+<small class="media_description">Post Search, 2014</small>
 
 Indexing trillions of posts in a privacy aware index was an incredible infra challenge, but the functionality provided the perfect opportunity to transition Facebook search away from structured grammar to a simpler keyword model.
 

@@ -7,9 +7,9 @@ image: magic_pd.png
 ---
 Save time writing product descriptions with Shopify Magic. Automatically generate unique and compelling descriptions that make your products stand out.
 
-<video autoplay loop muted>
-    <source src="../assets/videos/magicPD.m4v" type="video/mp4">
-</video>
+<div class="video_wrap_3-2">
+    <iframe src="https://player.vimeo.com/video/830220483?h=4e8a39ee64?autoplay=1&loop=1&autopause=0&background=1&color=ffffff&controls=0&portrait=0" position="absolute" width="100%" height="100%" top=" 0" left="0" frameborder="0" allowfullscreen></iframe>
+</div>
 <small class="media_description">Shopify Magic 2.0</small>
 
 Shopify works hard to keep merchants at the cutting edge. Thanks to <a href="https://www.shopify.com/blog/ai-product-descriptions">Shopify Magic</a>, millions of Shopify merchants are able to use the most recent advances in AI to propel their businesses forward today.
