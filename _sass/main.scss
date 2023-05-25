@@ -1,7 +1,7 @@
 $tiny-breakpoint: 320px;
-$mobile-breakpoint: 480px;
-$tablet-breakpoint: 800px;
-$desktop-breakpoint: 992px;
+$mobile-breakpoint: 375px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 960px;
 $large-desktop-breakpoint: 1200px;
 $extra-large-desktop-breakpoint: 1440px;
 
@@ -127,7 +127,7 @@ ul li {
   background-repeat: no-repeat;
   
   @include tablet {
-    height: 150vw;
+    height: 140vw;
     background-size: 200%;
   }
 }
