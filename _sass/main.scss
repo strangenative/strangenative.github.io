@@ -131,6 +131,10 @@ ul li {
     height: 140vw;
     background-size: 200%;
   }
+
+  @include mobile {
+    height: 166vw;
+  }
 }
 
 #panel2 {
@@ -208,6 +212,7 @@ h2 {
   @include mobile {
     font-size: 11.5vw;
     width: auto;
+    line-height: 1em;
   }
 }
 

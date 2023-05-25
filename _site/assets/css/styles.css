@@ -74,6 +74,11 @@ ul li {
     background-size: 200%;
   }
 }
+@media (max-width: 414px) {
+  #panel1 {
+    height: 166vw;
+  }
+}
 
 #panel2 {
   padding: 10vh;
@@ -155,6 +160,7 @@ h2 {
   #home h1 {
     font-size: 11.5vw;
     width: auto;
+    line-height: 1em;
   }
 }
 
