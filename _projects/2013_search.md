@@ -11,9 +11,9 @@ When I joined the design team at Facebook in 2011, users could only search for p
 
 <code>
 Example Graph Connections…<br><br>
-[User] ——— friendsWith ——▶︎ [User]<br>
-[User] ——— likes ————————▶︎ [Page]<br>
-[User] ——— taggedIn —————▶︎ [Photo]
+[User] — friendWith —▶︎ [User]<br>
+[User] — likes ——————▶︎ [Page]<br>
+[User] — taggedIn ———▶︎ [Photo]
 </code>
 
 On January 15th, 2013 Facebook invited the press to an event at their new headquarters in Menlo Park. The presentation hall was packed with reporters snapping photos and live-blogging the opening moments.
