@@ -67,6 +67,7 @@ ul li {
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
+  max-height: 100vw;
 }
 @media only screen and (max-width: 750px) {
   #panel1 {

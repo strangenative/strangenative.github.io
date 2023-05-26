@@ -126,6 +126,7 @@ ul li {
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
+  max-height: 100vw;
   
   @include tablet {
     height: 140vw;
