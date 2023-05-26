@@ -40,9 +40,9 @@ While computer vision and digital music making tools have come a long way since 
 ***
 
 <h3>Thesis Collaborators:</h3>
-- SVA MFA, Interaction Design Chair: Liz Danzico
-- Professors: Paul Pangaro, Jennifer Bove
-- Advisors: Nicholas Felton, Robin Bargar
+- SVA MFA, Interaction Design Chair: [Liz Danzico](https://bobulate.com/about/)
+- Professors: [Paul Pangaro](https://www.linkedin.com/in/pangaro), [Jennifer Bove](https://www.linkedin.com/in/jbove)
+- Advisors: [Nicholas Felton](http://feltron.com), [Robin Bargar](https://www.linkedin.com/in/robin-bargar-2b7896?original_referer=https%3A%2F%2Fwww.google.com%2F)
 
 ***
 
