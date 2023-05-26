@@ -67,11 +67,11 @@ ul li {
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 140vw;
+  max-height: 145vw;
 }
 @media only screen and (max-width: 750px) {
   #panel1 {
-    height: 140vw;
+    height: 145vw;
     background-size: 200%;
   }
 }
