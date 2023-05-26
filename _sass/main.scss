@@ -126,7 +126,7 @@ ul li {
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 166vw;
+  max-height: 168vw;
   
   @include tablet {
     height: 145vw;
@@ -134,7 +134,7 @@ ul li {
   }
 
   @include mobile {
-    height: 166vw;
+    height: 168vw;
   }
 }
 
