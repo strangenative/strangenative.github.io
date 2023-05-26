@@ -107,6 +107,14 @@ ul li {
   }
 }
 
+@media (min-width: 1440px) {
+  #sidebar {
+    position: absolute;
+    top: 114vh;
+    left: 52em;
+  }
+}
+
 #panel4 ul, #panel5 ul {
   padding-left: 0;
 }

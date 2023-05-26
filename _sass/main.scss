@@ -162,6 +162,14 @@ ul li {
   }
 }
 
+#sidebar {
+  @include extra-large-desktop {
+    position: absolute;
+    top: 114vh;
+    left: 52em;
+  }
+}
+
 #panel4 ul, #panel5 ul {
   padding-left: 0;
 }
