@@ -24,7 +24,7 @@ On July 21st, 2011 my graduate thesis project, <small>MOTIV</small>, appeared in
 </div>
 <small class="media_description"><small>MOTIV</small> expression test, 2013</small>
 
-As I entered my second year in grad school I was studying the neurological connections between music and emotion. Why does music make us feel anything at all? Turns out, our emotions are hard-wired to our body. Expression in music is directly connected to our intuitive understanding of the human body behind the sound.
+As I entered my second year of grad school ing the School of Visual Arts [MFA in Interaction Design](https://interactiondesign.sva.edu). I was studying the neurological connections between music and emotion. Why does music make us feel anything at all? Turns out, our emotions are hard-wired to our body. Expression in music is directly connected to our intuitive understanding of the human body behind the sound.
 
 Musicians love digital tools because they inspire new ways of creating, but they struggle with them too, having to tweak, abuse, and outright hack them into producing more emotionally resonant outputs. <small>MOTIV</small> aimed to recouple digital music-making tools to movement to unlock musical expression for all.
 
@@ -40,9 +40,9 @@ While computer vision and digital music making tools have come a long way since 
 ***
 
 <h3>Thesis Collaborators:</h3>
-- Advisors: Nicholas Felton, Robin Bargar
+- SVA MFA, Interaction Design Chair: Liz Danzico
 - Professors: Paul Pangaro, Jennifer Bove
-- MFA Chair: Liz Danzico
+- Advisors: Nicholas Felton, Robin Bargar
 
 ***
 
