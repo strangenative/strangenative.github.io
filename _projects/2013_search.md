@@ -52,7 +52,7 @@ Despite its innovative approach, adoption was low. Even the most advanced <small
 As we learned these hard lessons, we were simultaneously working to massively expand search's capabilities. Every day in News Feed, billions of important posts would disappear beneath a continual stream of fresh content. Facebook offered no way for users to search for the most important posts they remembered seeing.
 
 ![Left: Facebook search typeahead suggesting keyword completions, Right: Post results with highlighted text matching the search term](../assets/images/postsearch_product.png)
-<small class="media_description">Post Search, 2014</small>
+<small class="media_description">Post Search, 2016</small>
 
 Indexing trillions of posts in a privacy aware index was an incredible infra challenge, but the functionality provided the perfect opportunity to transition Facebook search away from structured grammar to a simpler keyword model.
 
