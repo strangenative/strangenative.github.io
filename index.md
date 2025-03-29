@@ -7,7 +7,7 @@ layout: home
 </div>
 
 <div id ="panel2">
-  <h2>Design Director, GenAI at Meta. Former product lead <a href="https://shopify.github.io/spatial-commerce-projects/">XR/AI at Shopify</a> and co-founder primersupply.</h2>
+  <h2>Design Director, GenAI at Meta.</h2>
   
   <p>In 2011 he received an MFA in Interaction Design at SVA where he invented a gestural instrument using a hacked Kinect sensor. <a href="https://www.nytimes.com/2011/07/21/technology/personaltech/kinect-hacking-finds-a-wider-crowd.html">The New York Times wrote about it.</a></p> 
 
