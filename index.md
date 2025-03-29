@@ -15,5 +15,5 @@ layout: home
 
   <p>He co-founded <a href="https://businessofhome.com/articles/is-primer-wallpaper-s-new-best-friend">Primer</a>&hairsp;&mdash;&hairsp;an AR enabled interior design marketplace&hairsp;&mdash;&hairsp;in 2019 with Adam Presson and the team <a href="https://techcrunch.com/2021/06/11/shopify-acquires-augmented-reality-home-design-app-primer/">joined Shopify</a> in 2021, where he led product for Shopify's <a href="https://shopify.github.io/spatial-commerce-projects/">Spatial Commerce team before returning to Meta.</a></p>
 
-  <p>He's authored more than 75 patents across search, social media, hardware, AR, VR, and AI.</p>
+  <p>He's authored more than 100 patents across search, social media, hardware, AR, VR, and AI.</p>
 </div>
